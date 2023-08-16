@@ -35,13 +35,4 @@ class AppTest {
         assertThrows(IllegalArgumentException.class, () -> calculator.dividir(10, 0));
     }
     
-    @Test
-    public void testDivisaoErro() {
-        assertEquals(3.0, calculator.dividir(10, 3));
-    }
-    
-    @Test
-    public void testSubtracaoErro() {
-        assertEquals(8, calculator.subtrair(10, 3));
-    }
 }
